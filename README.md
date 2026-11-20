@@ -10,7 +10,7 @@ After having a good idea of what you consider an attack/enumeration you can edit
 Add the script inside a home directory you will run it from. 
 
 ### **Important** 
-Make sure the permissions on all the scripts and the folder containing the scripts is 600. chmod -r 600 Basic-L-IDS/
+Make sure the permissions on all the scripts and the folder containing the scripts is 700. chmod -R 700 Basic-L-IDS/
 
 In order to fire up the script you need to execute python3 logreader.py
 This will fire up the script
